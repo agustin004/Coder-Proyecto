@@ -1,0 +1,22 @@
+{
+  "name": "coffee-nation",
+  "version": "1.0.0",
+  "description": "an static webpage to learn the basics concepts of coffee, and get some recommendations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss SCSS/style.scss styles/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "keywords": [],
+  "author": "Agustin Serra Rivero <agustin.serra.rivero@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.15",
+    "bootstrap": "^"
+  },
+  "devDependencies": {
+    "eslinter": "^3.2.1"
+  }
+}
